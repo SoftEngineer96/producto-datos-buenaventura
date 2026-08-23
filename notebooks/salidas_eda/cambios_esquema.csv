@@ -1,0 +1,6 @@
+dominio,vigencia,separador,decimal,columnas,particularidad
+aduanero,2012-2016,coma,punto,44,ceros iniciales perdidos; centinela 1.797e+308
+aduanero,2017 y 2019,punto y coma,coma,44,marca BOM rompe la columna FECH
+aduanero,2020-2022,coma,punto,44,ceros iniciales conservados
+aduanero,2023-2026,punto y coma,coma,41,se pierden 3 columnas
+portuario,2018-2026,coma,punto,14,esquema estable en las 102 vigencias

@@ -1,0 +1,7 @@
+origen,destino,llave,tipo,granularidad_comun,justificacion
+DANE IMPO (declaraciones),Supertransporte (tráfico),mes calendario,agregada,mensual,No existe llave pública entre declaración y movimiento portuario
+DANE IMPO,TRM,mes calendario,agregada,mensual,La TRM diaria se mensualiza con criterio de corte declarado
+DANE IMPO,ONI,mes calendario,contextual,mensual,"Indicador climático; explica periodos, no operaciones"
+DANE IMPO,Catálogo de eventos,rango de fechas,contextual,periodo,"Coincidencia temporal documentada, sin afirmar causalidad"
+Supertransporte,DIMAR (arribos),—,no viable,—,DIMAR solo publica PDF trimestrales sin serie tabular
+Cualquiera,ETA/ATA/permanencias,—,no viable,—,Sin fuente pública histórica; requiere AIS comercial o terminal

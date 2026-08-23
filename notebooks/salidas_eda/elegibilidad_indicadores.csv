@@ -1,0 +1,8 @@
+indicador,dominio,n_obs,continuidad,rezago_dias,elegible
+cif_usd,aduanero,173,completa,45.0,True
+peso_neto_kg,aduanero,173,completa,45.0,True
+toneladas_totales,portuario,102,completa,60.0,True
+ton_contenerizada,portuario,102,completa,60.0,True
+TEU,portuario,0,—,,False
+arribos,marítimo,0,—,,False
+permanencia_media,operacional,0,—,,False

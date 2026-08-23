@@ -1,0 +1,5 @@
+dominio,variable,unidad,fuente
+aduanero,cif_usd,USD corrientes,DANE
+aduanero,peso_neto_kg,kilogramos,DANE
+portuario,toneladas,toneladas métricas,Supertransporte
+portuario,TEU,NO PUBLICADA,no disponible en el dataset

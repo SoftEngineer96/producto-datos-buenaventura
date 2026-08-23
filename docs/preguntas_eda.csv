@@ -1,0 +1,53 @@
+pregunta,bloque,enunciado,estado_previsto
+P01,Fuentes y viabilidad,¿Qué fuentes podrían aportar datos aduaneros portuarios marítimos y contextuales?,viable
+P02,Fuentes y viabilidad,¿Qué periodos frecuencias granularidades y retrasos tiene cada fuente?,viable
+P03,Fuentes y viabilidad,¿Qué variables contiene cada fuente y cómo se definen?,viable
+P04,Fuentes y viabilidad,¿Qué fuentes permiten descarga automatizada?,viable
+P05,Fuentes y viabilidad,¿Qué información de horarios arribos zarpes fondeos y permanencias existe realmente?,no viable
+P06,Fuentes y viabilidad,¿Qué condiciones legales y licencias aplican?,viable
+P07,Fuentes y viabilidad,¿Cuál será la fuente principal y cuáles complementarias o descartadas?,viable
+P08,Calidad y estructura,¿Qué archivos tablas y versiones integran cada fuente aprobada?,viable
+P09,Calidad y estructura,¿Qué cambios de esquema aparecen entre periodos?,viable
+P10,Calidad y estructura,¿Qué tan completos son los campos críticos de cada dominio?,viable
+P11,Calidad y estructura,¿Existen duplicados en archivos registros eventos o agregados?,viable
+P12,Calidad y estructura,¿Las unidades monedas pesos toneladas contenedores y TEU son consistentes?,parcial
+P13,Calidad y estructura,¿Qué valores imposibles negativos o incoherentes existen?,viable
+P14,Calidad y estructura,¿Las cifras agregadas reproducen los totales oficiales dentro de una tolerancia?,viable
+P15,Aduanas y mercancías,¿Cómo evoluciona el CIF FOB peso neto y peso bruto de la aduana 35?,viable
+P16,Aduanas y mercancías,¿Cómo se distribuye el CIF unitario implícito por kilogramo?,viable
+P17,Aduanas y mercancías,¿Qué países de origen concentran valor y peso?,viable
+P18,Aduanas y mercancías,¿Qué capítulos o subpartidas concentran valor y peso?,viable
+P19,Aduanas y mercancías,¿Qué países y productos explican las principales variaciones mensuales?,viable
+P20,Aduanas y mercancías,¿Qué meses presentan extremos y de qué naturaleza?,viable
+P21,Aduanas y mercancías,¿Qué tendencia estacionalidad persistencia y cambios de régimen hay?,viable
+P22,Aduanas y mercancías,¿Las revisiones posteriores del DANE modifican la serie?,parcial
+P23,Carga portuaria,¿Cómo evoluciona la carga movilizada en la zona portuaria?,viable
+P24,Carga portuaria,¿Cómo se distribuye la carga por tipo?,viable
+P25,Carga portuaria,¿Cómo evolucionan contenedores y TEU y qué diferencia hay?,parcial
+P26,Carga portuaria,¿Qué terminales o sociedades portuarias concentran carga?,viable
+P27,Carga portuaria,¿Qué terminales se especializan en determinados tipos de carga?,viable
+P28,Carga portuaria,¿Existen cambios de capacidad concesión o metodología?,parcial
+P29,Carga portuaria,¿Qué periodos presentan movimientos portuarios extremos?,viable
+P30,Carga portuaria,¿Qué relación agregada existe entre peso aduanero y toneladas portuarias?,viable
+P31,Buques y fechas,¿Cuántos arribos y zarpes se registran por periodo?,no viable
+P32,Buques y fechas,¿Qué tipos de buque participan y cómo cambia su composición?,no viable
+P33,Buques y fechas,¿Qué banderas procedencias destinos o rutas aparecen?,no viable
+P34,Buques y fechas,¿Qué horarios y días concentran arribos atraques o zarpes?,no viable
+P35,Buques y fechas,¿Cuál es la diferencia entre tiempos estimados y reales?,no viable
+P36,Buques y fechas,¿Cuánto tiempo permanecen los buques en fondeo terminal o puerto?,no viable
+P37,Buques y fechas,¿Qué buques rutas o terminales presentan mayores frecuencias o permanencias?,no viable
+P38,Buques y fechas,¿Qué calidad y cobertura tienen los identificadores fechas e itinerarios?,no viable
+P39,Contexto e integración,¿Qué relación temporal existe entre TRM CIF peso toneladas TEU y arribos?,parcial
+P40,Contexto e integración,¿Qué condiciones meteorológicas coinciden con cambios en carga?,parcial
+P41,Contexto e integración,¿Qué eventos externos coinciden con cambios estructurales o extremos?,viable
+P42,Contexto e integración,¿Qué relaciones pueden construirse de forma directa agregada o contextual?,viable
+P43,Contexto e integración,¿Qué porcentaje de registros o periodos queda vinculado?,viable
+P44,Contexto e integración,¿Los desfases de publicación introducen sesgos al comparar fuentes?,viable
+P45,Contexto e integración,¿Qué indicadores integrados aportan información adicional?,viable
+P46,Pronóstico y producto,¿Qué indicadores tienen calidad historia y utilidad para ser pronosticados?,viable
+P47,Pronóstico y producto,¿Qué desempeño obtienen Naive 1 Naive estacional y drift?,viable
+P48,Pronóstico y producto,¿Qué modelos logran mejor estabilidad fuera de muestra sin fuga?,viable
+P49,Pronóstico y producto,¿Qué variables aportan valor incremental al pronóstico?,viable
+P50,Pronóstico y producto,¿Los modelos presentan sesgo errores extremos o degradación?,viable
+P51,Pronóstico y producto,¿Los intervalos alcanzan la cobertura nominal con ancho útil?,viable
+P52,Pronóstico y producto,¿Cómo transforma el dashboard los indicadores en señales de alerta?,viable

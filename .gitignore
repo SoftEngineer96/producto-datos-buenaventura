@@ -1,0 +1,28 @@
+# Datos crudos: pesan poco y sin ellos un clon del repositorio no
+# puede ejecutar el pipeline. Se versionan por eso, y se excluye únicamente lo pesado
+# (los paquetes ZIP del DANE, que viven fuera del repositorio).
+data/raw/**/*.zip
+data/raw/**/*.7z
+data/landing/*
+!data/landing/.gitkeep
+
+# Las capas derivadas se regeneran con `python -m src.correr_integrado`.
+data/trusted/*.parquet
+models/*.joblib
+
+# Salidas regeneradas por el pipeline
+reports/figures/*.png
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-temp/
+.ruff_cache/
+
+# Entornos y basura del sistema
+.venv/
+venv/
+.env
+.DS_Store
+~$*
+_worktree_git_pointer.txt

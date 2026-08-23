@@ -1,0 +1,5 @@
+fuente,ultimo_mes,rezago_dias,disponible_al_predecir_mes_siguiente
+DANE IMPO,2026-05,45,False
+Supertransporte,2026-06,60,False
+TRM,2026-06,0,True
+ONI,2026-06,15,True

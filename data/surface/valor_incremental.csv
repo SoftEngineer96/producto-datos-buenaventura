@@ -1,0 +1,2 @@
+meses_aduanas,meses_puertos,meses_vinculados,pct_aduanas_vinculado,pct_puertos_vinculado,solo_aduanas,solo_puertos,periodo_comun,tipo_integracion,llave,cardinalidad,riesgo_duplicacion
+173,102,101,58.38,99.02,72,1,2018-01 a 2026-05,agregada por mes,mes calendario,1:1 tras agregar ambos dominios a mensual,nulo: ambas fuentes se agregan antes de unir

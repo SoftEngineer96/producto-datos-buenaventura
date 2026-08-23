@@ -1,0 +1,5 @@
+pregunta_del_usuario,con_una_fuente,con_la_vista_integrada,aporta
+¿Subió el comercio o subieron los precios?,no distinguible,sí: CIF vs toneladas,True
+¿El aumento de valor vino con más carga física?,no,sí,True
+¿Qué terminal absorbió el cambio?,solo puerto,"sí, por sociedad portuaria",True
+¿Qué buque trajo esa mercancía?,no,NO: sin llave verificable,False

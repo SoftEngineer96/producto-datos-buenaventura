@@ -1,0 +1,4 @@
+fuente,variable,evaluada,integrada,motivo
+IDEAM,precipitación y viento,True,False,requiere selección de estación y validación de cobertura no realizada
+DIMAR — meteomarina,oleaje y marea,True,False,sin serie histórica descargable
+NOAA ONI,anomalía oceánica,True,True,integrada como contexto en P39

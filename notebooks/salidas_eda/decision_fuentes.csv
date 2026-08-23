@@ -1,0 +1,7 @@
+fuente,rol,puntaje,razon
+DANE IMPO,principal,5,"173 meses, granularidad de declaración, serie reconciliada"
+Supertransporte,complementaria,4,"102 meses mensuales, API reproducible, licencia clara"
+TRM,contextual,3,diaria y sin rezago
+ONI,contextual,2,la evaluación no mostró una mejora predictiva
+DIMAR,descartada,1,solo PDF trimestral
+AIS,descartada,0,sin acceso ni presupuesto

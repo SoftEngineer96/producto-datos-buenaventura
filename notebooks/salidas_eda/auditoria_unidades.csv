@@ -1,0 +1,5 @@
+dominio,variable,unidad,factor_a_base
+aduanero,cif_usd,USD corrientes,1.0
+aduanero,peso_neto_kg,kilogramos,1.0
+portuario,toneladas,toneladas métricas,1000.0
+portuario,TEU,NO PUBLICADA,

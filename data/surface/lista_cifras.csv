@@ -1,0 +1,59 @@
+concepto,valor,archivo_fuente,pregunta
+Meses de la serie aduanera,173,serie_aduanera_mensual.parquet,P15
+Periodo aduanero,2012-01 a 2026-05,serie_aduanera_mensual.parquet,P15
+Registros de la aduana 35,6.703.351,línea base aduanera reconciliada,P15
+Meses de la serie portuaria,102,serie_portuaria_mensual.parquet,P23
+Periodo portuario,2018-01 a 2026-06,serie_portuaria_mensual.parquet,P23
+Meses integrados,101,cobertura_integracion.csv,P43
+Periodo integrado,2018-01 a 2026-05,vista_integrada_mensual.parquet,P43
+CIF medio mensual,1.182.063.397,serie_aduanera_mensual.parquet,P15
+CIF por kilogramo medio,"1,2368",serie_aduanera_mensual.parquet,P16
+Toneladas medias mensuales,"1,70",serie_portuaria_mensual.parquet,P23
+Transbordo sobre el total,"9,5",serie_portuaria_mensual.parquet,P23
+Crecimiento del CIF,"80,4",descomposicion_cif_volumen_valor.csv,P30
+Aporte del volumen al crecimiento,"52,2",descomposicion_cif_volumen_valor.csv,P30
+Aporte del valor unitario al crecimiento,"47,0",descomposicion_cif_volumen_valor.csv,P30
+Variacion de toneladas de importacion,"19,6",descomposicion_trafico_portuario.csv,P23
+Variacion de toneladas de exportacion,"1,3",descomposicion_trafico_portuario.csv,P23
+Variacion del transbordo,"-85,2",descomposicion_trafico_portuario.csv,P23
+Variacion del total portuario,"-13,3",descomposicion_trafico_portuario.csv,P23
+HHI capitulo arancelario,"433,74",comparacion_concentracion.csv,P18
+HHI pais de origen,"1351,38",comparacion_concentracion.csv,P17
+HHI sociedad portuaria,"3514,24",comparacion_concentracion.csv,P26
+Participacion de la mayor sociedad,"51,36",participacion_sociedad_portuaria.csv,P26
+HHI portuario 2018,4722,hhi_anual_sociedades.csv,P26
+HHI portuario 2023,2988,hhi_anual_sociedades.csv,P26
+HHI portuario 2025,3740,hhi_anual_sociedades.csv,P26
+HHI portuario 2026 parcial,4217,hhi_anual_sociedades.csv,P26
+Sociedades sin reporte en 2026,2,sociedades_sin_reporte_2026.csv,P28
+ACF del CIF en rezago 1,"0,917",línea base aduanera,P21
+ACF del CIF en rezago 12,"0,590",línea base aduanera,P21
+Indice estacional maximo,"104,8 en el mes 8",estacionalidad_aduanera.csv,P21
+Indice estacional minimo,"92,8 en el mes 6",estacionalidad_aduanera.csv,P21
+WAPE historia propia mas calendario,"5,875",ablacion_multidominio.csv,P49
+WAPE historia propia,"6,082",ablacion_multidominio.csv,P49
+WAPE contexto TRM y ONI,"6,133",ablacion_multidominio.csv,P49
+WAPE integrado completo,"6,167",ablacion_multidominio.csv,P49
+WAPE historia propia mas puerto,"6,575",ablacion_multidominio.csv,P49
+WAPE naive 1 sobre el CIF,"6,956",ablacion_multidominio.csv,P47
+WAPE naive 12 sobre el CIF,"16,487",ablacion_multidominio.csv,P47
+WAPE drift sobre el CIF,"6,905",ablacion_multidominio.csv,P47
+Mejora sobre naive 1,"15,5",ablacion_multidominio.csv,P48
+Mejora sobre naive 12,"64,4",ablacion_multidominio.csv,P48
+WAPE toneladas totales Ridge,"6,613",metricas_modelos_portuarios.csv,P48
+WAPE toneladas totales naive 1,"9,174",metricas_modelos_portuarios.csv,P47
+Mejora en toneladas totales,"27,9",metricas_modelos_portuarios.csv,P48
+WAPE carga contenerizada naive 1,"8,553",metricas_modelos_portuarios.csv,P48
+WAPE carga contenerizada Ridge,"9,450",metricas_modelos_portuarios.csv,P48
+Cobertura nominal del intervalo,80,cobertura_intervalos_portuarios.csv,P51
+Cobertura empirica minima,"75,0",cobertura_intervalos_portuarios.csv,P51
+Cobertura empirica maxima,"91,7",cobertura_intervalos_portuarios.csv,P51
+Cortes evaluados minimo,12,cobertura_intervalos_portuarios.csv,P51
+Preguntas ejecutadas,38,matriz_trazabilidad_eda.csv,—
+Preguntas parciales,4,matriz_trazabilidad_eda.csv,—
+Preguntas no viables,10,reporte_no_viabilidad.csv,—
+Figuras del cuaderno,55,LOG_EJECUCION.json,—
+Archivos de evidencia del cuaderno,57,LOG_EJECUCION.json,—
+Pruebas automatizadas,80,tests/,—
+Razon toneladas portuarias sobre peso aduanero,"1,16",vista_integrada_mensual.parquet,P30
+Correlacion en variaciones entre dominios,"0,115",vista_integrada_mensual.parquet,P30

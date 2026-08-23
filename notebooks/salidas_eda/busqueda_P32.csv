@@ -1,0 +1,5 @@
+fuente,url,formato,serie_tabular,granularidad,resultado
+DIMAR — estadísticas de tráfico marítimo,dimar.mil.co/operaciones-estadisticas,PDF trimestral,False,trimestral agregada,sin desagregación por evento ni descarga estructurada
+datos.gov.co — catálogo,datos.gov.co/api/catalog/v1?q=arribos+zarpes,API,False,—,0 resultados para arribos y zarpes
+Portal Logístico de Colombia,plc.mintransporte.gov.co,tablero web,False,agregada,sin exportación histórica por evento
+AIS comercial,proveedores privados,API de pago,True,evento,sin acceso ni presupuesto; restringe redistribución

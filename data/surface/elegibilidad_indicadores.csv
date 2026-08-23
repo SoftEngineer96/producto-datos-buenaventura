@@ -1,0 +1,8 @@
+indicador,dominio,n_obs,frecuencia,continuidad,rezago_dias,elegible,razon
+cif_usd,aduanero,173,mensual,completa,45.0,True,"173 observaciones, serie reconciliada"
+peso_neto_kg,aduanero,173,mensual,completa,45.0,True,173 observaciones
+toneladas_totales,portuario,102,mensual,completa,60.0,True,"102 observaciones, suficiente para 24 y 36 cortes"
+ton_contenerizada,portuario,102,mensual,completa,60.0,True,102 observaciones
+TEU,portuario,0,—,—,,False,La fuente no publica TEU
+arribos,marítimo,0,—,—,,False,Sin fuente tabular
+permanencia_media,operacional,0,—,—,,False,Sin fuente pública

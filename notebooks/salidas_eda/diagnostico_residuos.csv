@@ -1,0 +1,11 @@
+objetivo,modelo,wape_pct,sesgo_rel_pct,error_maximo
+toneladas_totales,ridge,6.613,0.636,478517.048
+toneladas_totales,hgb,7.86,2.153,626872.78
+toneladas_totales,naive_1,9.174,0.254,583602.0
+toneladas_totales,drift,9.239,0.413,585969.972
+toneladas_totales,naive_12,12.838,7.594,814613.0
+ton_contenerizada,naive_1,8.553,0.411,316843.0
+ton_contenerizada,drift,8.559,0.592,318112.917
+ton_contenerizada,ridge,9.45,1.367,327970.906
+ton_contenerizada,hgb,10.817,1.113,332867.989
+ton_contenerizada,naive_12,17.058,11.46,569898.0

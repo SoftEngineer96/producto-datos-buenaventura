@@ -1,0 +1,7 @@
+dominio,variable,n,pct_nulos
+portuario,sum_importacion,508,0.0
+portuario,sum_exportacion,508,0.0
+portuario,sum_transbordo,508,0.0
+aduanero,cif_usd,173,0.0
+aduanero,peso_neto_kg,173,0.0
+aduanero,cif_kg,173,0.0

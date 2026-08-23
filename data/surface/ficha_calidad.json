@@ -1,0 +1,22 @@
+{
+  "fecha_generacion": "2026-08-22T22:24:57",
+  "dominios": {
+    "aduanero": "2012-01 a 2026-05, 173 meses",
+    "portuario": "2018-01 a 2026-06, 102 meses",
+    "maritimo": "NO VIABLE",
+    "contextual": "TRM y ONI"
+  },
+  "meses_integrados": 101,
+  "preguntas": {
+    "ejecutada": 38,
+    "no viable": 10,
+    "parcial": 4
+  },
+  "advertencias": [
+    "La integración aduanera-portuaria es AGREGADA por mes, nunca directa.",
+    "Peso neto aduanero y toneladas portuarias no son el mismo concepto.",
+    "El dataset portuario publica toneladas, no TEU.",
+    "El transbordo no es comercio exterior: no entra ni sale del país.",
+    "Las alertas son señales de revisión, no órdenes operativas."
+  ]
+}

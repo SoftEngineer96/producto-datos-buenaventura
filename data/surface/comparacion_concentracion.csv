@@ -1,0 +1,4 @@
+dimension,hhi,clase,dominio,origen
+Capítulo arancelario,433.74,desconcentrado,aduanero,pipeline aduanero sobre 6.703.351 registros
+País de origen,1351.38,desconcentrado,aduanero,pipeline aduanero sobre 6.703.351 registros
+Sociedad portuaria,3514.24,concentrado,portuario,calculado en este pipeline

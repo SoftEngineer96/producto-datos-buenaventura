@@ -1,0 +1,9 @@
+conjunto,n_vars,wape_pct,ganancia_vs_A_pp
+B · A + calendario,7,5.875,0.207
+A · historia propia,5,6.082,0.0
+D · A + contexto,9,6.133,-0.051
+E · integrado completo,16,6.167,-0.085
+C · A + PUERTO,10,6.575,-0.493
+base · drift,0,6.905,-0.823
+base · naive_1,0,6.956,-0.874
+base · naive_12,0,16.487,-10.405

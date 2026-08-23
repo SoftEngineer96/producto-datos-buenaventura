@@ -1,0 +1,4 @@
+nivel,criterio,accion
+normal,dentro del comportamiento histórico esperado,seguimiento de rutina del informe mensual
+seguimiento,variación relevante dentro del rango histórico,"revisar composición por país, capítulo o tipo de carga"
+alerta,desviación fuera del umbral o fuera del intervalo,revisión dirigida y verificación de la fuente

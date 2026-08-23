@@ -1,0 +1,15 @@
+{
+  "niveles": [
+    "normal",
+    "seguimiento",
+    "alerta"
+  ],
+  "base": "variación interanual, calibrada solo con entrenamiento",
+  "indicadores": [
+    "cif_usd",
+    "peso_neto_kg",
+    "toneladas_totales",
+    "ton_contenerizada"
+  ],
+  "descargo": "Señal de revisión analítica. No es una orden operativa."
+}

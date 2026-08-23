@@ -1,0 +1,7 @@
+fuente_id,dominio,decision
+dane_impo,aduanero,integrar
+supertransporte_trafico,portuario,integrar
+banrep_trm,contextual,contexto
+noaa_oni,contextual,contexto
+dimar_trafico,marítimo,"no integrada — solo PDF, sin serie tabular descargable"
+ais_comercial,operacional,descartada — sin acceso ni presupuesto

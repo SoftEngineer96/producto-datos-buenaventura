@@ -1,0 +1,6 @@
+origen,destino,llave,tipo,cardinalidad,riesgo_duplicacion
+DANE IMPO,Supertransporte,mes calendario,AGREGADA,1:1 tras agregar,nulo
+DANE IMPO,TRM,mes calendario,AGREGADA,1:1,nulo
+DANE IMPO,ONI,mes calendario,CONTEXTUAL,1:1,nulo
+DANE IMPO,eventos,rango de fechas,CONTEXTUAL,1:N,nulo
+declaración,buque o terminal,NO EXISTE,NO VIABLE,—,—

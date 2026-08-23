@@ -1,0 +1,7 @@
+objetivo,modelo,wape_pct,mase_12
+toneladas_totales,naive_1,9.174,0.637
+toneladas_totales,naive_12,12.838,0.892
+toneladas_totales,drift,9.231,0.641
+ton_contenerizada,naive_1,8.553,0.5
+ton_contenerizada,naive_12,17.058,0.997
+ton_contenerizada,drift,8.535,0.499

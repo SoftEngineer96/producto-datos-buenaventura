@@ -1,0 +1,7 @@
+fuente_id,granularidad,frecuencia,cobertura
+dane_impo,declaración,mensual,2012-01 a 2026-05
+supertransporte_trafico,zona portuaria × sociedad portuaria × tipo de carga × mes,mensual (publicación trimestral),2018-01 a 2026-06
+banrep_trm,diaria,diaria,2012-01 a 2026-06
+noaa_oni,mensual,mensual,2012-01 a 2026-06
+dimar_trafico,"trimestral, agregada",trimestral,por verificar
+ais_comercial,evento,tiempo real,—

@@ -1,0 +1,53 @@
+pregunta,bloque,estado
+P01,Bloque 1 · Fuentes y viabilidad,ejecutada
+P02,Bloque 1 · Fuentes y viabilidad,ejecutada
+P03,Bloque 1 · Fuentes y viabilidad,ejecutada
+P04,Bloque 1 · Fuentes y viabilidad,ejecutada
+P05,Bloque 1 · Fuentes y viabilidad,no viable por ausencia de fuente
+P06,Bloque 1 · Fuentes y viabilidad,ejecutada
+P07,Bloque 1 · Fuentes y viabilidad,ejecutada
+P08,Bloque 2 · Calidad y estructura,ejecutada
+P09,Bloque 2 · Calidad y estructura,ejecutada
+P10,Bloque 2 · Calidad y estructura,ejecutada
+P11,Bloque 2 · Calidad y estructura,ejecutada
+P12,Bloque 2 · Calidad y estructura,ejecutada parcialmente
+P13,Bloque 2 · Calidad y estructura,ejecutada
+P14,Bloque 2 · Calidad y estructura,ejecutada
+P15,Bloque 3 · Aduanas y mercancías,ejecutada
+P16,Bloque 3 · Aduanas y mercancías,ejecutada
+P17,Bloque 3 · Aduanas y mercancías,ejecutada
+P18,Bloque 3 · Aduanas y mercancías,ejecutada
+P19,Bloque 3 · Aduanas y mercancías,ejecutada
+P20,Bloque 3 · Aduanas y mercancías,ejecutada
+P21,Bloque 3 · Aduanas y mercancías,ejecutada
+P22,Bloque 3 · Aduanas y mercancías,ejecutada parcialmente
+P23,Bloque 4 · Carga portuaria y terminales,ejecutada
+P24,Bloque 4 · Carga portuaria y terminales,ejecutada
+P25,Bloque 4 · Carga portuaria y terminales,ejecutada parcialmente
+P26,Bloque 4 · Carga portuaria y terminales,ejecutada
+P27,Bloque 4 · Carga portuaria y terminales,ejecutada
+P28,Bloque 4 · Carga portuaria y terminales,ejecutada
+P29,Bloque 4 · Carga portuaria y terminales,ejecutada
+P30,Bloque 4 · Carga portuaria y terminales,ejecutada
+P31,"Bloque 5 · Buques, fechas e itinerarios",no viable por ausencia de fuente
+P32,"Bloque 5 · Buques, fechas e itinerarios",no viable por ausencia de fuente
+P33,"Bloque 5 · Buques, fechas e itinerarios",no viable por ausencia de fuente
+P34,"Bloque 5 · Buques, fechas e itinerarios",no viable por ausencia de fuente
+P35,"Bloque 5 · Buques, fechas e itinerarios",no viable por ausencia de fuente
+P36,"Bloque 5 · Buques, fechas e itinerarios",no viable por ausencia de fuente
+P37,"Bloque 5 · Buques, fechas e itinerarios",no viable por ausencia de fuente
+P38,"Bloque 5 · Buques, fechas e itinerarios",no viable por ausencia de fuente
+P39,Bloque 6 · Contexto e integración,ejecutada parcialmente
+P40,Bloque 6 · Contexto e integración,no viable por ausencia de fuente
+P41,Bloque 6 · Contexto e integración,ejecutada
+P42,Bloque 6 · Contexto e integración,ejecutada
+P43,Bloque 6 · Contexto e integración,ejecutada
+P44,Bloque 6 · Contexto e integración,ejecutada
+P45,Bloque 6 · Contexto e integración,ejecutada
+P46,"Bloque 7 · Pronóstico, alertas y producto",ejecutada
+P47,"Bloque 7 · Pronóstico, alertas y producto",ejecutada
+P48,"Bloque 7 · Pronóstico, alertas y producto",ejecutada
+P49,"Bloque 7 · Pronóstico, alertas y producto",ejecutada
+P50,"Bloque 7 · Pronóstico, alertas y producto",ejecutada
+P51,"Bloque 7 · Pronóstico, alertas y producto",ejecutada
+P52,"Bloque 7 · Pronóstico, alertas y producto",ejecutada

@@ -1,0 +1,522 @@
+{
+  "P01": {
+    "pregunta": "P01",
+    "estado": "ejecutada",
+    "archivo": "catalogo_fuentes.csv",
+    "figura": "",
+    "hallazgo": "6 fuentes inventariadas en 4 dominios; 2 se integran",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P02": {
+    "pregunta": "P02",
+    "estado": "ejecutada",
+    "archivo": "catalogo_fuentes.csv",
+    "figura": "",
+    "hallazgo": "Aduanas mensual con 45 días de rezago; puerto mensual con publicación trimestral; DIMAR solo trimestral en PDF",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P03": {
+    "pregunta": "P03",
+    "estado": "ejecutada",
+    "archivo": "diccionario_fuentes.csv",
+    "figura": "",
+    "hallazgo": "Peso neto aduanero y toneladas portuarias NO son el mismo concepto",
+    "implicacion": "",
+    "limitacion": "El puerto incluye exportación y transbordo; la aduana solo importación",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P04": {
+    "pregunta": "P04",
+    "estado": "ejecutada",
+    "archivo": "catalogo_fuentes.csv",
+    "figura": "",
+    "hallazgo": "Supertransporte permite descarga automatizada por API Socrata; DANE exige descarga manual de ZIP; DIMAR solo PDF",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P06": {
+    "pregunta": "P06",
+    "estado": "ejecutada",
+    "archivo": "catalogo_fuentes.csv",
+    "figura": "",
+    "hallazgo": "Supertransporte CC BY-SA 4.0; DANE datos abiertos; AIS comercial con restricción de redistribución",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P07": {
+    "pregunta": "P07",
+    "estado": "ejecutada",
+    "archivo": "decision_fuentes.csv",
+    "figura": "",
+    "hallazgo": "Principal: DANE IMPO. Complementaria: Supertransporte. Contextuales: TRM y ONI. Descartadas: DIMAR y AIS",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P08": {
+    "pregunta": "P08",
+    "estado": "ejecutada",
+    "archivo": "manifest_fuentes.csv",
+    "figura": "",
+    "hallazgo": "Dos fuentes con hash y periodo registrados",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P09": {
+    "pregunta": "P09",
+    "estado": "ejecutada",
+    "archivo": "calidad_portuaria.csv",
+    "figura": "",
+    "hallazgo": "Esquema portuario estable en las 102 vigencias mensuales",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P10": {
+    "pregunta": "P10",
+    "estado": "ejecutada",
+    "archivo": "completitud_dominios.csv",
+    "figura": "",
+    "hallazgo": "Sin nulos en los campos de toneladas",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P11": {
+    "pregunta": "P11",
+    "estado": "ejecutada",
+    "archivo": "duplicados_por_dominio.csv",
+    "figura": "",
+    "hallazgo": "0 duplicados por mes y tipo de carga",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P12": {
+    "pregunta": "P12",
+    "estado": "parcial",
+    "archivo": "auditoria_unidades.csv",
+    "figura": "",
+    "hallazgo": "Toneladas y kilogramos requieren factor 1.000",
+    "implicacion": "",
+    "limitacion": "El dataset NO publica TEU ni número de contenedores, solo toneladas",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P13": {
+    "pregunta": "P13",
+    "estado": "ejecutada",
+    "archivo": "valores_fuera_dominio.csv",
+    "figura": "",
+    "hallazgo": "Sin valores negativos en toneladas",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P14": {
+    "pregunta": "P14",
+    "estado": "ejecutada",
+    "archivo": "continuidad_portuaria.json",
+    "figura": "",
+    "hallazgo": "102 meses continuos sin huecos (2018-01 a 2026-06)",
+    "implicacion": "",
+    "limitacion": "La fuente advierte que sus cifras pueden revisarse",
+    "fecha": "2026-08-22T22:24:46"
+  },
+  "P15": {
+    "pregunta": "P15",
+    "estado": "ejecutada",
+    "archivo": "serie_aduanera_mensual.parquet",
+    "figura": "P15_evolucion_aduanera_cif_peso_y_valor_unitario.png",
+    "hallazgo": "173 meses aduaneros continuos, 2012-01 a 2026-05",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P16": {
+    "pregunta": "P16",
+    "estado": "ejecutada",
+    "archivo": "serie_aduanera_mensual.parquet",
+    "figura": "",
+    "hallazgo": "CIF/kg medio 1.2368 USD/kg",
+    "implicacion": "",
+    "limitacion": "Valor unitario implícito agregado; no es un precio",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P17": {
+    "pregunta": "P17",
+    "estado": "ejecutada",
+    "archivo": "serie_aduanera_mensual.parquet",
+    "figura": "",
+    "hallazgo": "Composición y extremos heredados del pipeline aduanero verificado",
+    "implicacion": "",
+    "limitacion": "Recalculados sobre la misma serie reconciliada",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P18": {
+    "pregunta": "P18",
+    "estado": "ejecutada",
+    "archivo": "serie_aduanera_mensual.parquet",
+    "figura": "",
+    "hallazgo": "Composición y extremos heredados del pipeline aduanero verificado",
+    "implicacion": "",
+    "limitacion": "Recalculados sobre la misma serie reconciliada",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P19": {
+    "pregunta": "P19",
+    "estado": "ejecutada",
+    "archivo": "serie_aduanera_mensual.parquet",
+    "figura": "",
+    "hallazgo": "Composición y extremos heredados del pipeline aduanero verificado",
+    "implicacion": "",
+    "limitacion": "Recalculados sobre la misma serie reconciliada",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P20": {
+    "pregunta": "P20",
+    "estado": "ejecutada",
+    "archivo": "serie_aduanera_mensual.parquet",
+    "figura": "",
+    "hallazgo": "Composición y extremos heredados del pipeline aduanero verificado",
+    "implicacion": "",
+    "limitacion": "Recalculados sobre la misma serie reconciliada",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P21": {
+    "pregunta": "P21",
+    "estado": "ejecutada",
+    "archivo": "estacionalidad_aduanera.csv",
+    "figura": "",
+    "hallazgo": "Estacionalidad moderada; persistencia de rezago 1 alta",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P22": {
+    "pregunta": "P22",
+    "estado": "parcial",
+    "archivo": "",
+    "figura": "",
+    "hallazgo": "Solo existe una descarga del DANE, del 2026-08-01",
+    "implicacion": "",
+    "limitacion": "Las revisiones no son medibles sin una segunda descarga",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P23": {
+    "pregunta": "P23",
+    "estado": "ejecutada",
+    "archivo": "serie_portuaria_mensual.parquet",
+    "figura": "P23_carga_movilizada_en_la_zona_portuaria_de_buenaventura.png",
+    "hallazgo": "Promedio mensual 1.70 M t; máximo 2.99 M t",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P24": {
+    "pregunta": "P24",
+    "estado": "ejecutada",
+    "archivo": "participacion_tipo_carga.csv",
+    "figura": "P24_composicion_de_la_carga_por_tipo.png",
+    "hallazgo": "CONTENEDORES: 56.7 %; GRANEL SOLIDO DIFER. DE CARBON: 28.1 %; GENERAL: 7.7 %; CARBON AL GRANEL: 4.9 %; GRANEL LIQUIDO: 2.7 %",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P25": {
+    "pregunta": "P25",
+    "estado": "parcial",
+    "archivo": "serie_contenerizada.csv",
+    "figura": "",
+    "hallazgo": "Carga contenerizada media 0.96 M t/mes",
+    "implicacion": "",
+    "limitacion": "El dataset publica toneladas, NO unidades de contenedor ni TEU. La razón TEU/contenedor no puede calcularse con esta fuente",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P26": {
+    "pregunta": "P26",
+    "estado": "ejecutada",
+    "archivo": "participacion_sociedad_portuaria.csv",
+    "figura": "",
+    "hallazgo": "HHI 3,514 → CONCENTRADO. Una sola sociedad moviliza 51.4 % de las toneladas",
+    "implicacion": "El riesgo no está en qué se importa sino en por dónde pasa",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P27": {
+    "pregunta": "P27",
+    "estado": "ejecutada",
+    "archivo": "especializacion_terminales.csv",
+    "figura": "",
+    "hallazgo": "Especialización casi total: TCBUEN 100 % contenedores; Grupo Portuario y Compañía de Puertos solo graneles",
+    "implicacion": "La capacidad de respaldo entre terminales es menor de lo que sugiere el reparto agregado",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P28": {
+    "pregunta": "P28",
+    "estado": "ejecutada",
+    "archivo": "actividad_anual_terminales.csv",
+    "figura": "",
+    "hallazgo": "2 de 5 operadores dejan de reportar en 2026: COMPANIA DE PUERTOS ASOCIADOS S.; GRUPO PORTUARIO S.A",
+    "implicacion": "Un quiebre institucional en la serie no debe leerse como caída del comercio",
+    "limitacion": "La fuente registra reporte, no operación",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P29": {
+    "pregunta": "P29",
+    "estado": "ejecutada",
+    "archivo": "extremos_portuarios.csv",
+    "figura": "P29_meses_portuarios_extremos.png",
+    "hallazgo": "3 meses extremos en toneladas totales",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:47"
+  },
+  "P30": {
+    "pregunta": "P30",
+    "estado": "ejecutada",
+    "archivo": "vista_integrada_mensual.parquet",
+    "figura": "P30_peso_aduanero_frente_a_toneladas_portuarias_en_escala_normal.png",
+    "hallazgo": "Razón mediana toneladas portuarias/peso neto aduanero = 1.16; correlación contemporánea en diferencias = 0.115",
+    "implicacion": "Los dominios son complementarios, no equivalentes",
+    "limitacion": "El puerto incluye exportación y transbordo; la aduana solo importación",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P31": {
+    "pregunta": "P31",
+    "estado": "no viable",
+    "archivo": "reporte_no_viabilidad.csv",
+    "figura": "",
+    "hallazgo": "Sin fuente pública para arribos y zarpes por periodo",
+    "implicacion": "",
+    "limitacion": "No existe fuente pública con serie histórica tabular. DIMAR publica únicamente boletines trimestrales en PDF, sin desagregación por evento. Los datos de evento (ETA, ATA, ETD, ATD, fondeo, permanencia) provienen de sistemas de terminal o de AIS comercial, sin acceso ni presupuesto.",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P32": {
+    "pregunta": "P32",
+    "estado": "no viable",
+    "archivo": "reporte_no_viabilidad.csv",
+    "figura": "",
+    "hallazgo": "Sin fuente pública para tipos de buque y su composición",
+    "implicacion": "",
+    "limitacion": "No existe fuente pública con serie histórica tabular. DIMAR publica únicamente boletines trimestrales en PDF, sin desagregación por evento. Los datos de evento (ETA, ATA, ETD, ATD, fondeo, permanencia) provienen de sistemas de terminal o de AIS comercial, sin acceso ni presupuesto.",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P33": {
+    "pregunta": "P33",
+    "estado": "no viable",
+    "archivo": "reporte_no_viabilidad.csv",
+    "figura": "",
+    "hallazgo": "Sin fuente pública para banderas, procedencias, destinos y rutas",
+    "implicacion": "",
+    "limitacion": "No existe fuente pública con serie histórica tabular. DIMAR publica únicamente boletines trimestrales en PDF, sin desagregación por evento. Los datos de evento (ETA, ATA, ETD, ATD, fondeo, permanencia) provienen de sistemas de terminal o de AIS comercial, sin acceso ni presupuesto.",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P34": {
+    "pregunta": "P34",
+    "estado": "no viable",
+    "archivo": "reporte_no_viabilidad.csv",
+    "figura": "",
+    "hallazgo": "Sin fuente pública para horarios y días de arribo, atraque y zarpe",
+    "implicacion": "",
+    "limitacion": "No existe fuente pública con serie histórica tabular. DIMAR publica únicamente boletines trimestrales en PDF, sin desagregación por evento. Los datos de evento (ETA, ATA, ETD, ATD, fondeo, permanencia) provienen de sistemas de terminal o de AIS comercial, sin acceso ni presupuesto.",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P35": {
+    "pregunta": "P35",
+    "estado": "no viable",
+    "archivo": "reporte_no_viabilidad.csv",
+    "figura": "",
+    "hallazgo": "Sin fuente pública para diferencia entre tiempos estimados y reales (ETA/ATA, ETD/ATD)",
+    "implicacion": "",
+    "limitacion": "No existe fuente pública con serie histórica tabular. DIMAR publica únicamente boletines trimestrales en PDF, sin desagregación por evento. Los datos de evento (ETA, ATA, ETD, ATD, fondeo, permanencia) provienen de sistemas de terminal o de AIS comercial, sin acceso ni presupuesto.",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P36": {
+    "pregunta": "P36",
+    "estado": "no viable",
+    "archivo": "reporte_no_viabilidad.csv",
+    "figura": "",
+    "hallazgo": "Sin fuente pública para permanencia en fondeo, terminal o puerto",
+    "implicacion": "",
+    "limitacion": "No existe fuente pública con serie histórica tabular. DIMAR publica únicamente boletines trimestrales en PDF, sin desagregación por evento. Los datos de evento (ETA, ATA, ETD, ATD, fondeo, permanencia) provienen de sistemas de terminal o de AIS comercial, sin acceso ni presupuesto.",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P37": {
+    "pregunta": "P37",
+    "estado": "no viable",
+    "archivo": "reporte_no_viabilidad.csv",
+    "figura": "",
+    "hallazgo": "Sin fuente pública para frecuencias y permanencias por buque, ruta o terminal",
+    "implicacion": "",
+    "limitacion": "No existe fuente pública con serie histórica tabular. DIMAR publica únicamente boletines trimestrales en PDF, sin desagregación por evento. Los datos de evento (ETA, ATA, ETD, ATD, fondeo, permanencia) provienen de sistemas de terminal o de AIS comercial, sin acceso ni presupuesto.",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P38": {
+    "pregunta": "P38",
+    "estado": "no viable",
+    "archivo": "reporte_no_viabilidad.csv",
+    "figura": "",
+    "hallazgo": "Sin fuente pública para calidad de identificadores, fechas e itinerarios",
+    "implicacion": "",
+    "limitacion": "No existe fuente pública con serie histórica tabular. DIMAR publica únicamente boletines trimestrales en PDF, sin desagregación por evento. Los datos de evento (ETA, ATA, ETD, ATD, fondeo, permanencia) provienen de sistemas de terminal o de AIS comercial, sin acceso ni presupuesto.",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P05": {
+    "pregunta": "P05",
+    "estado": "no viable",
+    "archivo": "reporte_no_viabilidad.csv",
+    "figura": "",
+    "hallazgo": "Ninguna variable operativa tiene fuente pública histórica",
+    "implicacion": "",
+    "limitacion": "No existe fuente pública con serie histórica tabular. DIMAR publica únicamente boletines trimestrales en PDF, sin desagregación por evento. Los datos de evento (ETA, ATA, ETD, ATD, fondeo, permanencia) provienen de sistemas de terminal o de AIS comercial, sin acceso ni presupuesto.",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P39": {
+    "pregunta": "P39",
+    "estado": "parcial",
+    "archivo": "correlaciones_integradas.csv",
+    "figura": "",
+    "hallazgo": "Correlaciones débiles entre TRM y los indicadores de ambos dominios",
+    "implicacion": "",
+    "limitacion": "Correlación no implica causalidad; el rezago 0 no es usable",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P40": {
+    "pregunta": "P40",
+    "estado": "no viable",
+    "archivo": "",
+    "figura": "",
+    "hallazgo": "No se integró fuente meteomarina",
+    "implicacion": "",
+    "limitacion": "IDEAM y DIMAR requieren evaluación de cobertura que no se alcanzó hoy",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P41": {
+    "pregunta": "P41",
+    "estado": "ejecutada",
+    "archivo": "catalogo_eventos.csv",
+    "figura": "",
+    "hallazgo": "Tres eventos catalogados; coincidencia temporal, no causalidad",
+    "implicacion": "",
+    "limitacion": "Las fuentes deben verificarse y fecharse antes de la entrega",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P42": {
+    "pregunta": "P42",
+    "estado": "ejecutada",
+    "archivo": "matriz_integracion.csv",
+    "figura": "",
+    "hallazgo": "Ninguna relación es directa: la aduanera-portuaria es agregada por mes",
+    "implicacion": "Prohibido afirmar que una declaración corresponde a un buque",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P43": {
+    "pregunta": "P43",
+    "estado": "ejecutada",
+    "archivo": "cobertura_integracion.csv",
+    "figura": "",
+    "hallazgo": "101 meses vinculados (2018-01 a 2026-05); 99 % del puerto",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P44": {
+    "pregunta": "P44",
+    "estado": "ejecutada",
+    "archivo": "calendario_disponibilidad.csv",
+    "figura": "",
+    "hallazgo": "El puerto va un mes por delante de la aduana (junio contra mayo)",
+    "implicacion": "El desfase impide usar el puerto como predictor contemporáneo del CIF",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P45": {
+    "pregunta": "P45",
+    "estado": "ejecutada",
+    "archivo": "valor_incremental.csv",
+    "figura": "",
+    "hallazgo": "La vista integrada permite distinguir si un cambio del CIF viene acompañado de un cambio en toneladas movilizadas",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P46": {
+    "pregunta": "P46",
+    "estado": "ejecutada",
+    "archivo": "elegibilidad_indicadores.csv",
+    "figura": "",
+    "hallazgo": "4 de 7 indicadores elegibles",
+    "implicacion": "Solo se pronostica lo que tiene historia y calidad suficientes",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:48"
+  },
+  "P47": {
+    "pregunta": "P47",
+    "estado": "ejecutada",
+    "archivo": "metricas_modelos_portuarios.csv",
+    "figura": "",
+    "hallazgo": "Naive 1, Naive 12 y drift evaluados en ambos indicadores",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:57"
+  },
+  "P48": {
+    "pregunta": "P48",
+    "estado": "ejecutada",
+    "archivo": "metricas_modelos_portuarios.csv",
+    "figura": "",
+    "hallazgo": "Ver tabla comparativa por ventana",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:57"
+  },
+  "P49": {
+    "pregunta": "P49",
+    "estado": "ejecutada",
+    "archivo": "ablacion_multidominio.csv",
+    "figura": "",
+    "hallazgo": "Las variables portuarias NO mejoran el pronóstico del CIF: 6.082 % → 6.575 %",
+    "implicacion": "El valor de la integración es explicativo, no predictivo",
+    "limitacion": "89 filas utilizables y 24 cortes; otro conjunto de variables podría dar otro resultado",
+    "fecha": "2026-08-22T22:24:57"
+  },
+  "P50": {
+    "pregunta": "P50",
+    "estado": "ejecutada",
+    "archivo": "diagnostico_portuario.csv",
+    "figura": "",
+    "hallazgo": "Sesgo y error máximo reportados por indicador",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:57"
+  },
+  "P51": {
+    "pregunta": "P51",
+    "estado": "ejecutada",
+    "archivo": "cobertura_intervalos_portuarios.csv",
+    "figura": "",
+    "hallazgo": "toneladas_totales_ridge_v24: 92%; toneladas_totales_ridge_v36: 75%; ton_contenerizada_naive_1_v24: 75%; ton_contenerizada_naive_1_v36: 75%",
+    "implicacion": "",
+    "limitacion": "Con pocos cortes la cobertura medida tiene mucha incertidumbre",
+    "fecha": "2026-08-22T22:24:57"
+  },
+  "P52": {
+    "pregunta": "P52",
+    "estado": "ejecutada",
+    "archivo": "reglas_alerta.json",
+    "figura": "",
+    "hallazgo": "Reglas de tres niveles definidas sobre cuatro indicadores",
+    "implicacion": "",
+    "limitacion": "",
+    "fecha": "2026-08-22T22:24:57"
+  }
+}

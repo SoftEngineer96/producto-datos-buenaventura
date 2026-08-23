@@ -1,0 +1,4 @@
+variable,n_negativos,n_ceros,minimo,maximo
+sum_importacion,0,83,0.0,1185029.0
+sum_exportacion,0,161,0.0,352204.0
+sum_transbordo,0,361,0.0,789375.0

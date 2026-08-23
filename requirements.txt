@@ -1,0 +1,15 @@
+# Versiones fijadas para que el pipeline sea reproducible.
+# Verificar con: pip install -r requirements.txt && python -m pytest tests -q
+pandas==2.2.3
+numpy==2.1.3
+scikit-learn==1.5.2
+statsmodels==0.14.4
+matplotlib==3.9.2
+pyarrow==17.0.0
+openpyxl==3.1.5
+joblib==1.4.2
+streamlit==1.39.0
+altair==5.5.0         # visualizaciones declarativas del dashboard ejecutivo
+jinja2==3.1.4        # motor de estilos de pandas usado por el mapa de calor del dashboard
+pytest==8.3.3
+ruff==0.7.4

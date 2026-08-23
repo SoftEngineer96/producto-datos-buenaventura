@@ -1,0 +1,24 @@
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+ignore = [
+    "E501",    # el largo de línea lo controla line-length
+    "RUF001",  # caracteres unicode ambiguos: el proyecto se escribe en español
+    "RUF002",
+    "RUF003",
+    "B008",
+    "UP017",   # datetime.UTC exige Python 3.11; se conserva timezone.utc por compatibilidad
+
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S101"]        # assert es el mecanismo de pytest
+"notebooks/*" = ["E402"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = ["ignore::DeprecationWarning"]

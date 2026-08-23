@@ -1,0 +1,35 @@
+pregunta,titulo,unidad,origen
+P01,Semáforo de viabilidad de fuentes,número de fuentes,cuaderno
+P02,Cobertura temporal por fuente,años,cuaderno
+P05,Disponibilidad de variables operativas,sin dato,cuaderno
+P07,Decisión de fuentes por puntaje,puntaje 0 a 5,cuaderno
+P10,Completitud por variable y dominio,% de nulos,cuaderno
+P15,"Evolución aduanera CIF, peso y valor unitario","USD, kg, USD/kg",ambos
+P16,Valor CIF unitario implícito por kilogramo,USD/kg,cuaderno
+P17,Concentración del CIF por país de origen,% del CIF,cuaderno
+P18,Concentración del CIF por capítulo arancelario,% del CIF,cuaderno
+P19,Variación mensual del valor CIF,%,cuaderno
+P20,Meses extremos del valor CIF,miles de millones USD,cuaderno
+P21,Estacionalidad y persistencia del CIF,índice y coeficiente,cuaderno
+P23,Carga movilizada en la zona portuaria,millones de toneladas,ambos
+P24,Composición de la carga por tipo,millones de toneladas,ambos
+P25,Carga contenerizada en toneladas,millones de toneladas,cuaderno
+P26,Concentración por sociedad portuaria,% e índice HHI,cuaderno
+P27,Especialización de cada sociedad portuaria,%,cuaderno
+P28,Actividad anual por sociedad portuaria,millones de toneladas,cuaderno
+P29,Meses portuarios extremos,millones de toneladas,ambos
+P30,Peso aduanero frente a toneladas portuarias,índice base 100,ambos
+P31–P38,No viabilidad del bloque marítimo,sin dato,cuaderno
+P39,Correlación cruzada entre dominios,coeficiente,cuaderno
+P41,Series anotadas con eventos externos,mil M USD y M toneladas,cuaderno
+P42,Diagrama de integración entre dominios,relaciones,cuaderno
+P43,Embudo de integración,meses,cuaderno
+P44,Rezago de publicación por fuente,días,cuaderno
+P45,Valor económico frente a volumen físico,índice base 100,cuaderno
+P46,Elegibilidad de indicadores,observaciones,cuaderno
+P47,Desempeño de las líneas base,WAPE %,cuaderno
+P48,Comparación de modelos frente a líneas base,WAPE %,cuaderno
+P49,Ablación multidominio,WAPE %,cuaderno
+P50,Sesgo relativo por indicador,%,cuaderno
+P51,Cobertura empírica frente al nivel nominal,%,cuaderno
+P52,Matriz de decisión de la señal de alerta,niveles,cuaderno

@@ -1,0 +1,7 @@
+dominio,variable,unidad,definicion
+aduanero,cif_usd,USD corrientes,Valor de la mercancía más seguro y flete hasta el punto de entrada
+aduanero,peso_neto_kg,kilogramos,Peso de la mercancía sin embalaje
+aduanero,cif_kg,USD por kg,Valor unitario implícito. NO es un precio
+portuario,ton_importacion,toneladas,Carga de importación movilizada por sociedades portuarias
+portuario,ton_transbordo,toneladas,Carga que cambia de buque sin entrar ni salir del país
+portuario,TEU,NO PUBLICADA,El dataset no entrega unidades de contenedor ni TEU

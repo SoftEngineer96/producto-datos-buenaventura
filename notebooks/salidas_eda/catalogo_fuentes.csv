@@ -1,0 +1,7 @@
+fuente_id,dominio,entidad,formato,frecuencia,cobertura,decision
+dane_impo,aduanero,DANE,CSV en ZIP,mensual,2012-01 a 2026-05,integrar
+supertransporte,portuario,Supertransporte,API Socrata,mensual,2018-01 a 2026-06,integrar
+banrep_trm,contextual,Banco de la República,CSV,diaria,2012-01 a 2026-06,contexto
+noaa_oni,contextual,NOAA,CSV,mensual,2012-01 a 2026-06,contexto
+dimar,marítimo,DIMAR,PDF,trimestral,por verificar,no integrada — solo PDF
+ais,operacional,proveedores AIS,API de pago,tiempo real,—,descartada — sin acceso

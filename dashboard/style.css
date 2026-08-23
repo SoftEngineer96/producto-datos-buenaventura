@@ -1,0 +1,74 @@
+:root {
+  --bv-blue: #153a5b;
+  --bv-gold: #d89a3d;
+  --bv-ink: #17212b;
+  --bv-muted: #66717d;
+}
+
+.stApp {
+  background: linear-gradient(180deg, #f7f9fb 0%, #ffffff 22rem);
+}
+
+.block-container {
+  max-width: 1440px;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.eyebrow {
+  color: var(--bv-gold);
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+  margin: 0 0 0.25rem 0;
+}
+
+h1, h2, h3 {
+  color: var(--bv-ink);
+  letter-spacing: -0.02em;
+}
+
+[data-testid="stMetric"] {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #e3e8ed;
+  border-top: 3px solid var(--bv-gold);
+  border-radius: 0.7rem;
+  padding: 0.9rem 1rem;
+  box-shadow: 0 8px 26px rgba(21, 58, 91, 0.06);
+}
+
+[data-testid="stMetricLabel"] {
+  color: var(--bv-muted);
+}
+
+[data-testid="stSidebar"] {
+  background: #102f49;
+}
+
+[data-testid="stSidebar"] * {
+  color: #f6f8fa;
+}
+
+[data-testid="stSidebar"] input {
+  color: #17212b !important;
+  -webkit-text-fill-color: #17212b !important;
+}
+
+[data-testid="stSidebar"] [data-baseweb="tag"] {
+  background-color: #d89a3d;
+}
+
+[data-testid="stDataFrame"] {
+  border: 1px solid #e3e8ed;
+  border-radius: 0.65rem;
+  overflow: hidden;
+}
+
+@media (max-width: 800px) {
+  .block-container {
+    padding-top: 1rem;
+  }
+  [data-testid="stMetric"] {
+    margin-bottom: 0.55rem;
+  }
+}

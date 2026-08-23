@@ -1,0 +1,4 @@
+fuente,inicio,fin,n_meses,frecuencia,rezago_dias
+DANE IMPO,2012-01,2026-05,173,mensual,45
+Supertransporte,2018-01,2026-06,102,mensual,60
+TRM,2012-01,2026-06,176,diaria,0

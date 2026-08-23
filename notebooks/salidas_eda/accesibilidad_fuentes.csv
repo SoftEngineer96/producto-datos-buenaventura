@@ -1,0 +1,5 @@
+fuente,mecanismo,automatizable,reproducible,riesgo_operativo
+Supertransporte 5r3g-zv5z,API Socrata,True,True,bajo
+DANE IMPO microdatos,descarga manual de ZIP anidados,False,True,medio
+DIMAR,PDF trimestral,False,False,alto
+AIS comercial,API de pago,True,False,alto
