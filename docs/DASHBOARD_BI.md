@@ -2,9 +2,10 @@
 
 ## Despliegue
 
-El dashboard está listo para publicarse desde la rama `main`, usando el archivo
-`dashboard/app.py` y Python 3.12 en Streamlit Community Cloud. Cuando se cree el
-despliegue, la URL pública se puede agregar en esta sección.
+El dashboard está publicado en Streamlit Community Cloud:
+<https://buenaventura-datos.streamlit.app/>.
+
+El despliegue usa la rama `main`, el archivo `dashboard/app.py` y Python 3.12.
 
 ## Decisión
 
