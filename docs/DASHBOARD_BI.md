@@ -1,13 +1,10 @@
 # Dashboard BI de importaciones de Buenaventura
 
-## Acceso público
+## Despliegue
 
-El dashboard validado está publicado gratuitamente en:
-
-<https://producto-datos-buenaventura-ffmg5xrgalkuhetnbntp2d.streamlit.app/>
-
-La aplicación usa la rama `main`, el archivo `dashboard/app.py` y Python 3.12 en
-Streamlit Community Cloud. No requiere inicio de sesión ni credenciales para consultarla.
+El dashboard está listo para publicarse desde la rama `main`, usando el archivo
+`dashboard/app.py` y Python 3.12 en Streamlit Community Cloud. Cuando se cree el
+despliegue, la URL pública se puede agregar en esta sección.
 
 ## Decisión
 

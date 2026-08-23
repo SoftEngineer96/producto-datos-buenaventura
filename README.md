@@ -5,8 +5,8 @@
 Universidad Libre, Seccional Cali · Ingeniería del Producto de Ciencia de Datos
 Juan Manuel Tejada Fajardo · Jesús Alejandro Guerrero · 2026
 
-**Dashboard público:**
-<https://producto-datos-buenaventura-ffmg5xrgalkuhetnbntp2d.streamlit.app/>
+**Dashboard:**
+la aplicación está lista para desplegarse desde `dashboard/app.py` en Streamlit Community Cloud.
 
 La guía de uso, actualización y despliegue está en [`docs/DASHBOARD_BI.md`](docs/DASHBOARD_BI.md).
 
